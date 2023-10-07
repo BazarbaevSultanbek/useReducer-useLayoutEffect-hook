@@ -5,7 +5,7 @@ function AvtoReducer(state, action) {
                 ...state,
                 features: state.features.map((item) => {
                     if (item.id === action.id) {
-                        item = {...item, status: true};
+                        item.status = true
                     }
                     return item;
                 }),
@@ -18,11 +18,11 @@ function AvtoReducer(state, action) {
                 ...state,
                 features:  state.features.map(item => {
                     if (item.id === action.id) {
-                        item = {...item, status: false};
+                        item.status = false
                     }
                     return item;
                 }),
-                totalPrice: state.amountPrice + state.features.reduce((acc, item) => {
+                totalPrice: state.amountPrice - state.features.reduce((acc, item) => {
                     return acc + (item.status ? item.price : 0);
                 }, 0)
 

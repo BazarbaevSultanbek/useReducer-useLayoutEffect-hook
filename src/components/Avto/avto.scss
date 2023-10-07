@@ -1,0 +1,55 @@
+.Avto{
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  background: #f8d6de;
+  gap: 80px;
+  height: 485px;
+  padding-top: 50px;
+  ul{
+    list-style: none;
+    li{
+      line-height: 40px;
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      button{
+        background: #ff5bb3;
+        color: white;
+        border: 1px solid black;
+        padding: 5px 7px;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+    }
+  }
+}
+.Avto-car{
+  background: white;
+  width: 400px;
+  height: 410px;
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  flex-direction: column;
+  padding:15px 35px;
+  gap: 20px;
+  border-radius: 15px;
+  img{
+    width: 200px;
+    height: auto;
+    margin: 0 auto;
+  }
+}
+.Avto-add{
+  background-color: white;
+  width: 400px;
+  height: 410px;
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  flex-direction: column;
+  padding:15px 35px;
+  gap: 20px;
+  border-radius: 15px;
+}

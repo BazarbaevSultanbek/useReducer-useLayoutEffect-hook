@@ -1,0 +1,15 @@
+.Connect{
+  display:flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  margin: 45px 0 0 25%;
+  gap: 20px;
+  button{
+    border: 1px solid black;
+    background: none;
+    padding: 7px 15px;
+    font-size: 18px;
+    border-radius: 5px;
+  }
+}

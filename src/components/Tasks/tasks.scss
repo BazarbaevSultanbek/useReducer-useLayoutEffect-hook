@@ -1,0 +1,49 @@
+.Tasks{
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  flex-direction: column;
+  margin:45px auto 0 auto;
+  gap: 45px;
+  width:400px;
+}
+.Tasks-nav{
+  width:400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  input{
+    width: 300px;
+    height: 30px;
+    outline: none;
+    font-size: 16px;
+    padding: 5px;
+  }
+  button{
+    border:1px solid black;
+    width: 70px;
+    height: 30px;
+    font-size: 18px;
+    border-radius: 5px;
+  }
+}
+.Tasks-items{
+  ul{
+    list-style: none;
+    li{
+      display:flex;
+      align-items: center;
+      justify-content: space-between;
+      width:400px;
+      line-height: 45px;
+      font-size: 18px;
+      button{
+        background: none;
+        border:1px solid black;
+        width: 70px;
+        height: 30px;
+        font-size: 16px;
+      }
+    }
+  }
+}

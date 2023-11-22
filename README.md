@@ -1,8 +1,9 @@
-# React + Vite
+# useLayoutEffect and useReducer hooks in React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+You can see Counter📱, Avto🚙 , Connect, Tasks📋, Colors pages on this repository📗
 
-Currently, two official plugins are available:
+This repository connected with Vercel.app
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+You can see this repository📗 by this link!
+
+🔗link:
